@@ -1,0 +1,7 @@
+<div class="bg-black h-screen p-3">
+  <div class="bg-white h-[100px]">
+    <span class="font-bold mr-4">Tong hoa don</span>
+    <span class="">{{sum}} VND</span>
+  </div>
+  <app-prodcut-item [sum]="sum" (newSum)="onNewSum($event)"></app-prodcut-item>
+</div>
