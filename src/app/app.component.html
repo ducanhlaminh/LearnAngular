@@ -1,7 +1,9 @@
-<div class="bg-black h-screen p-3">
-  <div class="bg-white h-[100px]">
-    <span class="font-bold mr-4">Tong hoa don</span>
-    <span class="">{{sum}} VND</span>
+<div class=" h-screen p-3">
+  <div class="flex gap-3 bg-blue-100 h-[70px]">
+    <div class="w-[200px] items-center justify-center flex" routerLink="/home" routerLinkActive="bg-blue-200"><span>Home</span></div>
+    <div class="w-[200px] items-center justify-center flex" routerLink="/todo-list" routerLinkActive="bg-blue-200"><span>Todo-list</span></div>
   </div>
-  <app-prodcut-item [sum]="sum" (newSum)="onNewSum($event)"></app-prodcut-item>
+  <div class="">
+    <router-outlet></router-outlet>
+  </div>
 </div>

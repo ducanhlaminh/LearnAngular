@@ -7,6 +7,7 @@ import { ProductType } from './components/common/product';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   title = 'myApp';
   sum:number = 1000;
   onNewSum(value:number){
