@@ -4,6 +4,9 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class TodoServiceService {
+  name: string;
+  status: string
+  constructor() {
 
-  constructor() { }
+  }
 }
